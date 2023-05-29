@@ -12,6 +12,7 @@ public class GMap implements IMap {
     private int size;
 
     public GMap() {
+        size = 0;
         r = new Random();
         service = new Service();
         aliveList = new HashSet<>();
